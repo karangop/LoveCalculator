@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Love Calculator</string>
+    <string name="intro">Enter the names to calculate your affinity with your love</string>
+    <string name="calculate">Calculate</string>
+    <string name="first_name">First name</string>
+    <string name="second_name">Second name</string>
+    <string name="validate_name1">Please enter first name</string>
+    <string name="validate_name2">Please enter a second name</string>
+    <string name="title_result">Your result is:</string>
+</resources>

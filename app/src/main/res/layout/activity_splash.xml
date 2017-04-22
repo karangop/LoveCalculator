@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rlSplash"
+    android:background="@drawable/bg_result"
+    tools:context="com.karangop.lovecalculator.views.SplashActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:layout_above="@+id/ivlogo"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/ivlogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/splash"
+        android:layout_marginTop="20sp"
+        android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>

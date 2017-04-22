@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Love Calculator</string>
+    <string name="intro">Ingresa los nombres para calcular tu afinidad con tu amor</string>
+    <string name="calculate">Calcular</string>
+    <string name="first_name">Primer nombre</string>
+    <string name="second_name">Segundo nombre</string>
+
+    <string name="title_activity_result">ResultActivity</string>
+
+    <string name="validate_name1">Por favor, ingresar primer nombre</string>
+    <string name="validate_name2">Por favor, ingresar segundo nombre</string>
+    <string name="title_result">Tu resultado es:</string>
+
+    <string name="percent_result"> %1$s %2$s</string>
+
+    <!--&#37; percentage %-->
+</resources>

@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlresult"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_result"
+    tools:context="com.karangop.lovecalculator.views.ResultActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_result"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/ivHeart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:src="@mipmap/heart"/>
+
+    <TextView
+        android:id="@+id/txtPercentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="100%"
+        android:textColor="@color/white"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:id="@+id/txtFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/first_name"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_above="@+id/ivHeart"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/txtSecondName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/second_name"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_below="@+id/ivHeart"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"/>
+
+
+</RelativeLayout>
